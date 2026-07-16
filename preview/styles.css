@@ -268,6 +268,7 @@ body[data-theme="scarlettjohansson"] {
 .main-nav { display: grid; gap: 5px; }
 .nav-item { width: 100%; display: flex; align-items: center; gap: 11px; border: 0; border-radius: 11px; padding: 10px 12px; text-align: left; background: transparent; cursor: pointer; }
 .nav-item span { width: 22px; color: var(--muted); font-size: 18px; text-align: center; }
+.nav-item b { font: inherit; }
 .nav-item:hover, .nav-item.active { background: color-mix(in srgb, var(--accent) 11%, transparent); }
 .nav-item.active span { color: var(--accent); }
 .sidebar-section { min-height: 0; flex: 1; overflow-y: auto; scrollbar-width: thin; }
@@ -294,6 +295,7 @@ body[data-theme="scarlettjohansson"] {
 .top-actions { display: flex; align-items: center; gap: 12px; }
 .ghost-button, .glass-button { border: 1px solid var(--line); border-radius: 999px; padding: 9px 14px; background: var(--surface-glass); cursor: pointer; backdrop-filter: blur(10px); }
 .ghost-button:hover, .glass-button:hover { border-color: var(--accent); }
+.language-toggle { min-width: 44px; font-weight: 800; color: var(--accent-strong); }
 .saved-state { color: var(--muted); font-size: 11px; }
 
 .hero { position: relative; min-height: 440px; overflow: hidden; border: 1px solid var(--line); border-radius: 28px; background: var(--surface-soft); box-shadow: 0 24px 70px var(--shadow); isolation: isolate; }

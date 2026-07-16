@@ -19,6 +19,10 @@
 
 `preview/index.html` 现在是一套可交互的独立皮肤原型，预置八套虚构人物主题和八套真人照片主题：
 
+在线预览：[https://cosmiccoderdev.github.io/codex-themes/](https://cosmiccoderdev.github.io/codex-themes/)
+
+页面支持中文和 English 两套界面，右上角可一键切换；主题与语言偏好都会保存在浏览器中。
+
 - 甜莓粉：草莓、蝴蝶结与柔光人物。
 - 星河紫：观星者、紫色星云与银色微光。
 - 赛博青：工程师、深色玻璃与青色霓虹。

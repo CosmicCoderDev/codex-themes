@@ -241,22 +241,154 @@ const themes = {
   }
 };
 
+const themeCopyEn = {
+  berry: {
+    name: "Sweet Berry", alt: "Sweet Berry theme hero portrait", kicker: "Berry Inspiration Studio",
+    title: "What would you like to create today?", description: "Let soft pink tones and strawberry sweetness turn your inspiration into working code.",
+    noteCopy: "Gentleness can be powerful", composer: "Code with the Sweet Berry muse", placeholder: "Share an idea and let inspiration code beside you…", caption: "Soft light, strawberries, and bows"
+  },
+  nebula: {
+    name: "Nebula Violet", alt: "Nebula Violet theme hero portrait", kicker: "Deep Space Observatory",
+    title: "Travel through a galaxy of code", description: "See complex systems as star maps and find the next clear path in the quiet of deep space.",
+    noteCopy: "Send an elegant call into the unknown", composer: "Explore with the nebula observer", placeholder: "Describe the goal and we will chart a path through the stars…", caption: "Violet nebula and silver starlight"
+  },
+  cyber: {
+    name: "Cyber Cyan", alt: "Cyber Cyan theme hero portrait", kicker: "Neon Engineering Lab",
+    title: "Initiate the build protocol", description: "Stay calm, precise, and fast, with a verifiable trail behind every change.",
+    noteCopy: "System online — compiling inspiration", composer: "Build with the neon engineer", placeholder: "Enter a task to begin scanning, building, and validating…", caption: "Dark glass and electric cyan"
+  },
+  oriental: {
+    name: "Oriental Red", alt: "Oriental Red theme hero portrait", kicker: "Cinnabar Inspiration Studio",
+    title: "A landscape on screen, a new chapter in code", description: "Use thoughtful space to hold complexity and cinnabar clarity to move the work forward.",
+    noteCopy: "Slow down to see; speed up to finish", composer: "Write with the Oriental muse", placeholder: "Write down your vision and let it grow from one line…", caption: "Cinnabar, porcelain white, and ink wash"
+  },
+  midnightglamour: {
+    name: "Midnight Glamour", alt: "Fashion hero image of a fictional adult woman on a midnight terrace", kicker: "Midnight Terrace",
+    title: "Let inspiration glow after dark", description: "Deep ocean blue, warm gold edges, and a black gown create a mature editorial mood that keeps attention on the work.",
+    noteCopy: "Fictional adult · AI-generated", composer: "Move the task forward with the midnight muse", placeholder: "Set the goal and let the night help you finish it…", caption: "Black gown, city lights, and warm gold"
+  },
+  crimsonsatin: {
+    name: "Crimson Satin", alt: "Fashion hero image of a fictional adult East Asian woman in a red gown", kicker: "Crimson Hour",
+    title: "Express boldly, deliver elegantly", description: "Rich crimson and warm golden light bring confident sophistication to every clear and decisive idea.",
+    noteCopy: "Fictional adult · AI-generated", composer: "Refine the work with the crimson muse", placeholder: "Share your concept and we will begin with its strongest idea…", caption: "Red satin, warm gold, and quiet confidence"
+  },
+  lofteditorial: {
+    name: "Afternoon Loft", alt: "Fashion hero image of a fictional adult blonde woman in a modern loft", kicker: "Afternoon Light",
+    title: "Simple can still be captivating", description: "A white shirt, black trousers, and natural afternoon light make complex problems feel clear again.",
+    noteCopy: "Fictional adult · AI-generated", composer: "Clarify ideas with the afternoon muse", placeholder: "Leave the problem here and we will untangle it step by step…", caption: "White shirt, modern loft, and soft daylight"
+  },
+  neonsilver: {
+    name: "Neon Silver", alt: "Fashion hero image of a fictional adult dark-haired woman in silver-blue neon", kicker: "Silver-Blue Night",
+    title: "Stay calm and keep your edge", description: "Silver, midnight blue, and cyan-violet neon create a futuristic space for clear judgment and vivid expression.",
+    noteCopy: "Fictional adult · AI-generated", composer: "Build with the silver-blue muse", placeholder: "Enter a task and begin a clear, confident build…", caption: "Silver dress, midnight blue, and neon"
+  },
+  liuyifei: {
+    name: "Liu Yifei", alt: "Liu Yifei at a public Beijing International Film Festival event", kicker: "Pink and Blue Light",
+    title: "Write inspiration with clarity", description: "A light pink-and-blue interface brings your focus back to the task that matters most.",
+    noteCopy: "Open-licensed event photo theme", composer: "Create in the Liu Yifei theme", placeholder: "Write down the one thing you most want to finish today…", caption: "Pink gown and blue festival light"
+  },
+  zhangziyi: {
+    name: "Zhang Ziyi", alt: "Zhang Ziyi at a public Venice Film Festival event", kicker: "Black-Silver Cinema",
+    title: "Turn complexity into certainty", description: "Restrained black, silver, and warm gold narrow the choices to the path worth pursuing.",
+    noteCopy: "Open-licensed event photo theme", composer: "Move the task forward in the Zhang Ziyi theme", placeholder: "Enter the goal, constraints, and deadline…", caption: "Black velvet and festival light"
+  },
+  zhouxun: {
+    name: "Zhou Xun", alt: "Zhou Xun at a public awards event", kicker: "Classic Negative Space",
+    title: "Make room for a sharp idea", description: "Black, white, and warm beige create a quiet background where ideas stay light and distinctive.",
+    noteCopy: "Open-licensed event photo theme", composer: "Organize inspiration in the Zhou Xun theme", placeholder: "Write down the idea and we will shape it into a clear piece…", caption: "Classic monochrome and warm beige"
+  },
+  fanbingbing: {
+    name: "Fan Bingbing", alt: "Fan Bingbing at a public Berlin International Film Festival event", kicker: "Ivory, Gold, and Emerald",
+    title: "Let detail become expression", description: "Ivory, gilded gold, and emerald create a polished space that turns each step into a visible result.",
+    noteCopy: "Open-licensed event photo theme", composer: "Refine the work in the Fan Bingbing theme", placeholder: "Tell me the goal and we will begin with the key details…", caption: "Ivory, gilded gold, and emerald"
+  },
+  annehathaway: {
+    name: "Anne Hathaway", alt: "Anne Hathaway at a public Berlin International Film Festival event", kicker: "Midnight Blue",
+    title: "Let inspiration grow naturally", description: "Dark hair, black styling, and midnight blue create an elegant space for turning complex thoughts into clear expression.",
+    noteCopy: "Open-licensed event photo theme", composer: "Create in the Anne Hathaway theme", placeholder: "Describe your idea and we will begin with a clear structure…", caption: "Dark hair, black styling, and midnight blue"
+  },
+  emmawatson: {
+    name: "Emma Watson", alt: "Emma Watson at a public Tribeca Film Festival event", kicker: "Monochrome Edge",
+    title: "Reason can be elegant", description: "Clean monochrome styling and a bright close-up keep thought, judgment, and expression connected.",
+    noteCopy: "Open-licensed event photo theme", composer: "Clarify ideas in the Emma Watson theme", placeholder: "Write down the problem and we will turn it into verifiable steps…", caption: "Bright close-up and crisp monochrome styling"
+  },
+  margotrobbie: {
+    name: "Margot Robbie", alt: "Margot Robbie at a public film premiere event", kicker: "White Lace",
+    title: "Turn bold ideas into finished work", description: "A white gown, golden light, and a natural smile bring bright energy that moves ideas into action.",
+    noteCopy: "Open-licensed event photo theme", composer: "Advance the idea in the Margot Robbie theme", placeholder: "Enter a bold idea and we will move it toward a visible result…", caption: "White gown, golden light, and a bright smile"
+  },
+  scarlettjohansson: {
+    name: "Scarlett Johansson", alt: "Scarlett Johansson at a public Cannes WikiPortraits event", kicker: "Silver-Blue Sea Breeze",
+    title: "Stay calm and move with precision", description: "Silver-blue tailoring, bright sky, and a natural smile create a fresh interface focused on what matters.",
+    noteCopy: "Open-licensed event photo theme", composer: "Complete the task in the Scarlett Johansson theme", placeholder: "Share the goal and constraints, and we will address the key issue…", caption: "Silver-blue tailoring, bright sky, and a natural smile"
+  }
+};
+
+const uiCopy = {
+  zh: {
+    pageTitle: "Codex Muse · 美女主题皮肤库", brandSubtitle: "灵感皮肤库", mainNavLabel: "主导航",
+    newTask: "新建任务", scheduled: "已安排", favorites: "主题收藏", codeLab: "代码实验室",
+    themeCloset: "皮肤衣橱", chooseThemeLabel: "选择人物主题", onlineLabel: "在线", workspace: "主题工作台",
+    randomTheme: "随心换装", startTask: "开始新任务", browseThemes: "浏览全部皮肤", featuresLabel: "快捷能力",
+    exploreCode: "探索代码", exploreCodeDesc: "理解陌生项目和复杂逻辑", buildFeatures: "构建功能", buildFeaturesDesc: "把想法变成应用或工具",
+    reviewChanges: "审查改动", reviewChangesDesc: "发现风险并给出清晰建议", fixIssues: "修复问题", fixIssuesDesc: "定位根因并完成可靠验证",
+    taskInputLabel: "任务输入", addAttachmentLabel: "添加附件", fullAccess: "♡ 完全访问⌄", sendLabel: "发送",
+    sourceNote: "新增时尚主题均为明确成年、虚构人物的 AI 原创图；真人主题使用 Wikimedia Commons 开放许可照片。",
+    sourceLink: "查看图片来源、生成说明和许可信息", drawerTitle: "挑选今天的灵感缪斯", closeLabel: "关闭",
+    enabled: "已启用", saved: "已自动保存", restored: "已恢复上次选择", applied: "本次选择已生效", languageSaved: "语言偏好已保存", ready: "准备就绪"
+  },
+  en: {
+    pageTitle: "Codex Muse · Theme Gallery", brandSubtitle: "INSPIRATION THEMES", mainNavLabel: "Main navigation",
+    newTask: "New task", scheduled: "Scheduled", favorites: "Theme favorites", codeLab: "Code lab",
+    themeCloset: "Theme closet", chooseThemeLabel: "Choose a portrait theme", onlineLabel: "Online", workspace: "Theme workspace",
+    randomTheme: "Surprise me", startTask: "Start a new task", browseThemes: "Browse all themes", featuresLabel: "Quick capabilities",
+    exploreCode: "Explore code", exploreCodeDesc: "Understand unfamiliar projects and complex logic", buildFeatures: "Build features", buildFeaturesDesc: "Turn ideas into apps and tools",
+    reviewChanges: "Review changes", reviewChangesDesc: "Find risks and suggest clear improvements", fixIssues: "Fix issues", fixIssuesDesc: "Find root causes and verify the result",
+    taskInputLabel: "Task input", addAttachmentLabel: "Add attachment", fullAccess: "♡ Full access⌄", sendLabel: "Send",
+    sourceNote: "New fashion themes use AI-generated images of fictional adults; celebrity themes use open-licensed Wikimedia Commons event photographs.",
+    sourceLink: "View image sources, generation notes, and licenses", drawerTitle: "Choose today's inspiration muse", closeLabel: "Close",
+    enabled: "enabled", saved: "Automatically saved", restored: "Previous choice restored", applied: "Applied for this session", languageSaved: "Language preference saved", ready: "Ready"
+  }
+};
+
 const storageKey = "codex-muse-theme";
+const languageStorageKey = "codex-muse-language";
+let currentLanguage = "zh";
 const hero = document.querySelector(".hero");
 const themeChoices = [...document.querySelectorAll("[data-theme-choice]")];
 const drawer = document.querySelector("#theme-drawer");
 const drawerGrid = document.querySelector("#drawer-grid");
 const ids = ["hero-image", "theme-symbol", "hero-kicker", "hero-title", "hero-description", "note-title", "note-copy", "composer-heading", "composer", "topbar-title", "current-theme-label", "saved-state"];
 const elements = Object.fromEntries(ids.map((id) => [id, document.getElementById(id)]));
+const languageToggle = document.querySelector("#language-toggle");
 
-function applyTheme(key, { persist = true } = {}) {
-  const theme = themes[key] || themes.berry;
+function getThemeCopy(key) {
+  return currentLanguage === "en" ? { ...themes[key], ...themeCopyEn[key] } : themes[key];
+}
+
+function translateStaticUi() {
+  const copy = uiCopy[currentLanguage];
+  document.documentElement.lang = currentLanguage === "en" ? "en" : "zh-CN";
+  document.querySelectorAll("[data-i18n]").forEach((element) => {
+    element.textContent = copy[element.dataset.i18n];
+  });
+  document.querySelectorAll("[data-i18n-aria-label]").forEach((element) => {
+    element.setAttribute("aria-label", copy[element.dataset.i18nAriaLabel]);
+  });
+  languageToggle.textContent = currentLanguage === "en" ? "中文" : "EN";
+  languageToggle.setAttribute("aria-label", currentLanguage === "en" ? "切换到中文" : "Switch to English");
+}
+
+function applyTheme(key, { persist = true, status = persist ? "saved" : "restored" } = {}) {
+  const resolvedKey = themes[key] ? key : "berry";
+  const theme = getThemeCopy(resolvedKey);
+  const copy = uiCopy[currentLanguage];
   hero.classList.add("is-changing");
   hero.classList.toggle("portrait-theme", Boolean(theme.portrait));
   hero.classList.toggle("editorial-theme", Boolean(theme.editorial));
   hero.style.setProperty("--portrait-image", `url("${theme.image}")`);
   hero.style.setProperty("--image-position", theme.imagePosition || "center");
-  document.body.dataset.theme = key;
+  document.body.dataset.theme = resolvedKey;
 
   elements["hero-image"].src = theme.image;
   elements["hero-image"].alt = theme.alt;
@@ -269,36 +401,42 @@ function applyTheme(key, { persist = true } = {}) {
   elements["composer-heading"].textContent = theme.composer;
   elements.composer.placeholder = theme.placeholder;
   elements["topbar-title"].textContent = theme.name;
-  elements["current-theme-label"].textContent = `${theme.name}已启用`;
-  elements["saved-state"].textContent = persist ? "已自动保存" : "已恢复上次选择";
+  elements["current-theme-label"].textContent = currentLanguage === "en" ? `${theme.name} ${copy.enabled}` : `${theme.name}${copy.enabled}`;
+  elements["saved-state"].textContent = copy[status];
 
   themeChoices.forEach((button) => {
-    const active = button.dataset.themeChoice === key;
+    const buttonTheme = getThemeCopy(button.dataset.themeChoice);
+    const active = button.dataset.themeChoice === resolvedKey;
+    button.querySelector("img").alt = buttonTheme.alt;
+    button.querySelector("strong").textContent = buttonTheme.name;
+    button.querySelector("small").textContent = buttonTheme.caption;
     button.classList.toggle("active", active);
     button.setAttribute("aria-pressed", String(active));
   });
 
   document.querySelectorAll("[data-drawer-theme]").forEach((button) => {
-    button.setAttribute("aria-pressed", String(button.dataset.drawerTheme === key));
+    button.setAttribute("aria-pressed", String(button.dataset.drawerTheme === resolvedKey));
   });
 
   if (persist) {
     try {
-      localStorage.setItem(storageKey, key);
+      localStorage.setItem(storageKey, resolvedKey);
     } catch {
-      elements["saved-state"].textContent = "本次选择已生效";
+      elements["saved-state"].textContent = copy.applied;
     }
   }
   window.setTimeout(() => hero.classList.remove("is-changing"), 220);
 }
 
 function buildDrawer() {
-  drawerGrid.replaceChildren(...Object.entries(themes).map(([key, theme]) => {
+  drawerGrid.replaceChildren(...Object.keys(themes).map((key) => {
+    const theme = getThemeCopy(key);
     const button = document.createElement("button");
     button.type = "button";
     button.className = "drawer-theme";
     button.dataset.drawerTheme = key;
     button.style.backgroundImage = `url("${theme.image}")`;
+    button.setAttribute("aria-label", `${theme.name}: ${theme.caption}`);
     button.innerHTML = `<span><strong>${theme.name}</strong><small>${theme.caption}</small></span>`;
     button.addEventListener("click", () => {
       applyTheme(key);
@@ -308,8 +446,23 @@ function buildDrawer() {
   }));
 }
 
+function applyLanguage(language, { persist = true } = {}) {
+  currentLanguage = language === "en" ? "en" : "zh";
+  translateStaticUi();
+  buildDrawer();
+  applyTheme(document.body.dataset.theme || "berry", { persist: false, status: persist ? "languageSaved" : "ready" });
+  if (persist) {
+    try {
+      localStorage.setItem(languageStorageKey, currentLanguage);
+    } catch {
+      elements["saved-state"].textContent = uiCopy[currentLanguage].applied;
+    }
+  }
+}
+
 themeChoices.forEach((button) => button.addEventListener("click", () => applyTheme(button.dataset.themeChoice)));
 document.querySelector("#open-drawer").addEventListener("click", () => drawer.showModal());
+languageToggle.addEventListener("click", () => applyLanguage(currentLanguage === "zh" ? "en" : "zh"));
 document.querySelector("#random-theme").addEventListener("click", () => {
   const keys = Object.keys(themes);
   const currentIndex = keys.indexOf(document.body.dataset.theme);
@@ -317,11 +470,16 @@ document.querySelector("#random-theme").addEventListener("click", () => {
   applyTheme(keys[(currentIndex + offset) % keys.length]);
 });
 
-buildDrawer();
 let savedTheme = null;
+let savedLanguage = null;
 try {
   savedTheme = localStorage.getItem(storageKey);
+  savedLanguage = localStorage.getItem(languageStorageKey);
 } catch {
   savedTheme = null;
+  savedLanguage = null;
 }
-applyTheme(themes[savedTheme] ? savedTheme : "berry", { persist: false });
+currentLanguage = savedLanguage === "en" ? "en" : "zh";
+translateStaticUi();
+buildDrawer();
+applyTheme(themes[savedTheme] ? savedTheme : "berry", { persist: false, status: savedTheme ? "restored" : "ready" });

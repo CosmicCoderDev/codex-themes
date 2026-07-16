@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light dark">
-  <title>Codex Muse · 美女主题皮肤库</title>
+  <title data-i18n="pageTitle">Codex Muse · 美女主题皮肤库</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body data-theme="berry">
@@ -12,19 +12,19 @@
     <aside class="sidebar">
       <div class="brand-row">
         <div class="brand-mark">C</div>
-        <div><strong>Codex Muse</strong><span>灵感皮肤库</span></div>
+        <div><strong>Codex Muse</strong><span data-i18n="brandSubtitle">灵感皮肤库</span></div>
       </div>
 
-      <nav class="main-nav" aria-label="主导航">
-        <button class="nav-item active" type="button"><span>＋</span>新建任务</button>
-        <button class="nav-item" type="button"><span>◷</span>已安排</button>
-        <button class="nav-item" type="button"><span>◇</span>主题收藏</button>
-        <button class="nav-item" type="button"><span>⌘</span>代码实验室</button>
+      <nav class="main-nav" aria-label="主导航" data-i18n-aria-label="mainNavLabel">
+        <button class="nav-item active" type="button"><span>＋</span><b data-i18n="newTask">新建任务</b></button>
+        <button class="nav-item" type="button"><span>◷</span><b data-i18n="scheduled">已安排</b></button>
+        <button class="nav-item" type="button"><span>◇</span><b data-i18n="favorites">主题收藏</b></button>
+        <button class="nav-item" type="button"><span>⌘</span><b data-i18n="codeLab">代码实验室</b></button>
       </nav>
 
       <div class="sidebar-section">
-        <p class="section-label">皮肤衣橱</p>
-        <div class="theme-list" role="list" aria-label="选择人物主题">
+        <p class="section-label" data-i18n="themeCloset">皮肤衣橱</p>
+        <div class="theme-list" role="list" aria-label="选择人物主题" data-i18n-aria-label="chooseThemeLabel">
           <button class="theme-choice active" type="button" data-theme-choice="berry" role="listitem" aria-pressed="true">
             <img src="assets/sweet-berry.png" alt="甜莓粉主题缩略图">
             <span><strong>甜莓粉</strong><small>柔光与蝴蝶结</small></span>
@@ -95,15 +95,16 @@
       <div class="sidebar-foot">
         <span class="avatar">M</span>
         <div><strong>momo</strong><small id="current-theme-label">甜莓粉已启用</small></div>
-        <span class="status-dot" aria-label="在线"></span>
+        <span class="status-dot" aria-label="在线" data-i18n-aria-label="onlineLabel"></span>
       </div>
     </aside>
 
     <main class="workspace">
       <header class="topbar">
-        <div class="crumb"><span>主题工作台</span><b>/</b><strong id="topbar-title">甜莓粉</strong></div>
+        <div class="crumb"><span data-i18n="workspace">主题工作台</span><b>/</b><strong id="topbar-title">甜莓粉</strong></div>
         <div class="top-actions">
-          <button class="ghost-button" type="button" id="random-theme">随心换装</button>
+          <button class="ghost-button language-toggle" type="button" id="language-toggle" aria-label="Switch to English">EN</button>
+          <button class="ghost-button" type="button" id="random-theme" data-i18n="randomTheme">随心换装</button>
           <span class="saved-state" id="saved-state">已自动保存</span>
         </div>
       </header>
@@ -116,37 +117,37 @@
           <h1 id="hero-title">今天想创造什么？</h1>
           <p id="hero-description">让柔软的粉色和草莓香气，陪你把灵感写成可以运行的代码。</p>
           <div class="hero-actions">
-            <button class="primary-button" type="button">开始新任务</button>
-            <button class="glass-button" type="button" id="open-drawer">浏览全部皮肤</button>
+            <button class="primary-button" type="button" data-i18n="startTask">开始新任务</button>
+            <button class="glass-button" type="button" id="open-drawer" data-i18n="browseThemes">浏览全部皮肤</button>
           </div>
         </div>
         <div class="floating-note"><b id="note-title">Sweet Code</b><span id="note-copy">温柔也可以很有力量</span></div>
       </section>
 
-      <section class="feature-grid" aria-label="快捷能力">
-        <button class="feature-card" type="button"><span class="feature-icon">&lt;/&gt;</span><strong>探索代码</strong><small>理解陌生项目和复杂逻辑</small></button>
-        <button class="feature-card" type="button"><span class="feature-icon">✦</span><strong>构建功能</strong><small>把想法变成应用或工具</small></button>
-        <button class="feature-card" type="button"><span class="feature-icon">✓</span><strong>审查改动</strong><small>发现风险并给出清晰建议</small></button>
-        <button class="feature-card" type="button"><span class="feature-icon">⌁</span><strong>修复问题</strong><small>定位根因并完成可靠验证</small></button>
+      <section class="feature-grid" aria-label="快捷能力" data-i18n-aria-label="featuresLabel">
+        <button class="feature-card" type="button"><span class="feature-icon">&lt;/&gt;</span><strong data-i18n="exploreCode">探索代码</strong><small data-i18n="exploreCodeDesc">理解陌生项目和复杂逻辑</small></button>
+        <button class="feature-card" type="button"><span class="feature-icon">✦</span><strong data-i18n="buildFeatures">构建功能</strong><small data-i18n="buildFeaturesDesc">把想法变成应用或工具</small></button>
+        <button class="feature-card" type="button"><span class="feature-icon">✓</span><strong data-i18n="reviewChanges">审查改动</strong><small data-i18n="reviewChangesDesc">发现风险并给出清晰建议</small></button>
+        <button class="feature-card" type="button"><span class="feature-icon">⌁</span><strong data-i18n="fixIssues">修复问题</strong><small data-i18n="fixIssuesDesc">定位根因并完成可靠验证</small></button>
       </section>
 
       <section class="composer-card">
         <div class="composer-label"><span>⌨</span><strong id="composer-heading">与甜莓缪斯一起写代码</strong></div>
-        <textarea id="composer" rows="3" aria-label="任务输入" placeholder="随心输入，让灵感陪你一起写代码吧……"></textarea>
+        <textarea id="composer" rows="3" aria-label="任务输入" data-i18n-aria-label="taskInputLabel" placeholder="随心输入，让灵感陪你一起写代码吧……"></textarea>
         <div class="composer-actions">
-          <button class="round-button" type="button" aria-label="添加附件">＋</button>
-          <span class="access-pill">♡ 完全访问⌄</span>
+          <button class="round-button" type="button" aria-label="添加附件" data-i18n-aria-label="addAttachmentLabel">＋</button>
+          <span class="access-pill" data-i18n="fullAccess">♡ 完全访问⌄</span>
           <span class="model-name">Codex · Muse</span>
-          <button class="send-button" type="button" aria-label="发送">↑</button>
+          <button class="send-button" type="button" aria-label="发送" data-i18n-aria-label="sendLabel">↑</button>
         </div>
       </section>
-      <p class="source-note">新增时尚主题均为明确成年、虚构人物的 AI 原创图；真人主题使用 Wikimedia Commons 开放许可照片。<a href="../ATTRIBUTION.md">查看图片来源、生成说明和许可信息</a></p>
+      <p class="source-note"><span data-i18n="sourceNote">新增时尚主题均为明确成年、虚构人物的 AI 原创图；真人主题使用 Wikimedia Commons 开放许可照片。</span> <a href="../ATTRIBUTION.md" data-i18n="sourceLink">查看图片来源、生成说明和许可信息</a></p>
     </main>
   </div>
 
   <dialog class="theme-drawer" id="theme-drawer">
     <form method="dialog" class="drawer-panel">
-      <div class="drawer-head"><div><span>THEME CLOSET</span><h2>挑选今天的灵感缪斯</h2></div><button type="submit" aria-label="关闭">×</button></div>
+      <div class="drawer-head"><div><span>THEME CLOSET</span><h2 data-i18n="drawerTitle">挑选今天的灵感缪斯</h2></div><button type="submit" aria-label="关闭" data-i18n-aria-label="closeLabel">×</button></div>
       <div class="drawer-grid" id="drawer-grid"></div>
     </form>
   </dialog>
