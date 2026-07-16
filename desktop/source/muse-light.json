@@ -1,0 +1,20 @@
+{
+  "variant": "light",
+  "codeThemeId": "codex-light",
+  "theme": {
+    "accent": "#D63384",
+    "contrast": 55,
+    "fonts": {
+      "code": null,
+      "ui": null
+    },
+    "ink": "#2D1426",
+    "opaqueWindows": false,
+    "semanticColors": {
+      "diffAdded": "#147D64",
+      "diffRemoved": "#C92A62",
+      "skill": "#8A4FD0"
+    },
+    "surface": "#FFF5FB"
+  }
+}
