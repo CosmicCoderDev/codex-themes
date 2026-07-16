@@ -1,144 +1,143 @@
-# Codex 星河计划
+# Codex Theme Galaxy
 
-面向 Codex 桌面版“设置 > 外观”的完整界面主题包。每组主题都提供浅色和深色分享串：
+**English** | [简体中文](README.zh-CN.md)
 
-- `Nebula`：星云深空，靛蓝、紫罗兰与冰蓝。
-- `Hacker`：赛博程序员，终端绿、深墨色与少量紫色。
-- `Muse`：霓虹人物气质，玫红、粉紫与深莓色；不使用图片背景，保证阅读清晰。
+A complete theme collection for **Codex Desktop → Settings → Appearance**, with light and dark share strings for every desktop theme:
 
-## 桌面版主题导入
+- `Nebula` — deep-space indigo, violet, and ice blue.
+- `Hacker` — terminal green, near-black surfaces, and subtle purple.
+- `Muse` — neon magenta, pink-violet, and dark berry tones with readable, image-free editor surfaces.
 
-1. 打开 Codex 的“设置 > 外观”。
-2. 在“浅色主题”或“深色主题”卡片中选择“导入”。
-3. 打开 `desktop/share` 中对应的 `.theme.txt` 文件，复制完整的一行分享串并粘贴。
-4. 系统模式会根据操作系统外观自动使用已导入的浅色或深色配置。
+## Live Preview
 
-分享串使用 Codex 当前支持的 `codex-theme-v1:` 协议，包含基础颜色、对比度、透明窗口、代码主题和语义色。UI 与代码字体保持为 `null`，即继续使用你当前的字体设置，避免导入不存在的字体。
+[Open the bilingual Codex Muse theme gallery](https://cosmiccoderdev.github.io/codex-themes/)
 
-## 美女主题皮肤库原型
+The gallery supports complete English and Chinese interfaces. Use the language button in the upper-right corner to switch modes. Both the selected theme and language preference are saved in the browser.
 
-`preview/index.html` 现在是一套可交互的独立皮肤原型，预置八套虚构人物主题和八套真人照片主题：
+## Import a Desktop Theme
 
-在线预览：[https://cosmiccoderdev.github.io/codex-themes/](https://cosmiccoderdev.github.io/codex-themes/)
+1. Open **Codex → Settings → Appearance**.
+2. Select **Import** in the Light Theme or Dark Theme card.
+3. Open the matching `.theme.txt` file in `desktop/share`, copy the complete single-line share string, and paste it into Codex.
+4. System mode will automatically use the imported light or dark configuration based on the operating-system appearance.
 
-页面支持中文和 English 两套界面，右上角可一键切换；主题与语言偏好都会保存在浏览器中。
+The share strings use the `codex-theme-v1:` format and include base colors, contrast, translucent-window settings, code themes, and semantic colors. UI and code font values remain `null`, so Codex keeps the user's existing font configuration instead of importing unavailable fonts.
 
-- 甜莓粉：草莓、蝴蝶结与柔光人物。
-- 星河紫：观星者、紫色星云与银色微光。
-- 赛博青：工程师、深色玻璃与青色霓虹。
-- 东方红：朱砂服饰、水墨留白与现代东方氛围。
-- 午夜黑裙：城市夜景、黑色礼服与暖金轮廓。
-- 绯红缎光：红色缎面礼服、暖金灯光与成熟时尚感。
-- 午后白衫：白衬衫、现代阁楼与柔和日光。
-- 银蓝霓影：银色礼服、午夜蓝与青紫霓虹。
-- 刘亦菲：粉色礼服与蓝色盛典光影。
-- 章子怡：黑色天鹅绒与电影节质感。
-- 周迅：晚礼服、聚光灯与温暖米色留白。
-- 范冰冰：象牙白、鎏金与翡翠绿色彩。
-- 安妮·海瑟薇：深棕长发、黑色造型与午夜蓝。
-- 艾玛·沃森：明亮近景、黑白造型与利落眼神。
-- 玛格特·罗比：白色礼服、金色光影与明快笑容。
-- 斯嘉丽·约翰逊：银蓝西装、明亮天空与自然笑容。
+## Portrait Theme Gallery Prototype
 
-点击左侧缩略图、弹出的皮肤衣橱或“随心换装”即可切换。选择保存在浏览器 `localStorage`，刷新页面后仍会恢复。八张虚构人物图均为明确成年人物的 AI 原创图；八张真人图片为 Wikimedia Commons 上采用 CC BY 或 CC BY-SA 许可的公开活动照片。生成说明、逐项来源、作者、许可版本、修改说明和人物权利提示见 [`ATTRIBUTION.md`](ATTRIBUTION.md)。真人主题不表示照片人物认可、合作或参与本项目。
+`preview/index.html` is a standalone interactive interface prototype with eight fictional-character themes and eight celebrity photo themes:
 
-这部分是可交互的独立界面原型，不会注入或修改 Codex 安装包。官方 Codex 仍使用上面的 `codex-theme-v1:` 分享串调整颜色和字体。
+- Sweet Berry — strawberries, bows, and soft portrait lighting.
+- Nebula Violet — an observer, violet nebulae, and silver starlight.
+- Cyber Cyan — an engineer, dark glass, and cyan neon.
+- Oriental Red — cinnabar styling, ink-wash space, and a modern East Asian mood.
+- Midnight Glamour — city lights, a black gown, and warm golden edges.
+- Crimson Satin — red satin, warm gold lighting, and mature editorial styling.
+- Afternoon Loft — a white shirt, a modern loft, and soft daylight.
+- Neon Silver — a silver dress, midnight blue, and cyan-violet neon.
+- Liu Yifei — a pink gown and blue festival lighting.
+- Zhang Ziyi — black velvet and cinematic festival lighting.
+- Zhou Xun — formal styling, a spotlight, and warm beige negative space.
+- Fan Bingbing — ivory, gilded gold, and emerald tones.
+- Anne Hathaway — dark hair, black styling, and midnight blue.
+- Emma Watson — a bright close-up with crisp monochrome styling.
+- Margot Robbie — a white gown, golden light, and a bright smile.
+- Scarlett Johansson — silver-blue tailoring, a bright sky, and a natural smile.
 
-## 重新生成分享串
+Switch themes from the sidebar thumbnails, the theme drawer, or **Surprise me**. The current choice is stored in browser `localStorage` and restored after refresh. The eight fictional-character images are original AI-generated images depicting fictional adults. The eight celebrity images are open-licensed public-event photographs from Wikimedia Commons under CC BY or CC BY-SA licenses.
 
-源配置位于 `desktop/source`。修改 JSON 后执行：
+See [`ATTRIBUTION.md`](ATTRIBUTION.md) for generation notes, per-file sources, authors, license versions, modification disclosures, and personality-rights guidance. The celebrity themes do not imply endorsement, participation, sponsorship, or collaboration by the photographed people.
+
+The gallery is a standalone prototype. It does not inject into or modify the Codex installation. Official Codex appearance customization continues to use the `codex-theme-v1:` share strings described above.
+
+## Rebuild the Share Strings
+
+Editable source configurations live in `desktop/source`. After changing a JSON file, run:
 
 ```powershell
 .\scripts\build-desktop-themes.ps1
 ```
 
-脚本会验证字段、颜色、明暗模式、代码主题 ID 和对比度，再生成 `desktop/share/*.theme.txt`。
+The script validates fields, colors, light/dark modes, code-theme IDs, and contrast values before regenerating `desktop/share/*.theme.txt`.
 
-## 预览
+## Local Preview
 
-在浏览器中打开 `preview/index.html`，即可并排查看两套配色。
+Open `preview/index.html` in a browser to browse and switch among all portrait themes.
 
-## CLI/TUI 附属主题
+## CLI/TUI Companion Themes
 
-项目早期还包含两套 `.tmTheme`，它们只修改 Codex CLI/TUI 的代码语法颜色，不会修改桌面版界面：
+The repository also includes two `.tmTheme` files. They change syntax colors in the Codex CLI/TUI only and do not modify the desktop interface:
 
 - `themes/codex-nebula.tmTheme`
 - `themes/codex-hacker.tmTheme`
 
-如需安装这两个 CLI 主题，在 PowerShell 中执行：
-
-在 PowerShell 中进入项目目录后执行：
+From the project directory in PowerShell, run:
 
 ```powershell
 .\scripts\install.ps1
 ```
 
-脚本默认把主题复制到：
+By default, the script copies the themes to:
 
 ```text
-C:\Users\<你的用户名>\.codex\themes
+C:\Users\<your-username>\.codex\themes
 ```
 
-如果目标中已有同名主题，脚本会跳过。确认需要覆盖时执行：
+Existing files with the same names are skipped. To intentionally overwrite them, run:
 
 ```powershell
 .\scripts\install.ps1 -Force
 ```
 
-安装完成后打开 Codex TUI，输入 `/theme` 预览并保存所选主题。
+After installation, open the Codex TUI and run `/theme` to preview and save a theme.
 
-也可以在 Codex 配置中指定主题名称：
+You can also name a theme in the Codex configuration:
 
 ```toml
 [tui]
 theme = "codex-nebula"
 ```
 
-## 仅预演安装
+## Dry Run
 
-安装和卸载脚本支持 PowerShell 的 `-WhatIf`：
+The install and uninstall scripts support PowerShell's `-WhatIf` mode:
 
 ```powershell
 .\scripts\install.ps1 -WhatIf
 .\scripts\uninstall.ps1 -WhatIf
 ```
 
-## 卸载
+## Uninstall
 
 ```powershell
 .\scripts\uninstall.ps1
 ```
 
-卸载脚本只删除本项目管理的两个主题，不会触碰主题目录中的其他文件。
+The uninstall script removes only the two themes managed by this repository and leaves all other files in the Codex theme directory untouched.
 
-## 项目结构
+## Project Structure
 
 ```text
 codex-themes/
+├─ .github/workflows/        # GitHub Pages deployment
 ├─ desktop/
-│  ├─ source/                 # 可维护的桌面主题 JSON
-│  └─ share/                  # 可直接粘贴导入的分享串
-├─ themes/
-│  ├─ codex-nebula.tmTheme
-│  └─ codex-hacker.tmTheme
-├─ scripts/
-│  ├─ build-desktop-themes.ps1
-│  ├─ install.ps1
-│  └─ uninstall.ps1
-└─ preview/
-   └─ index.html
+│  ├─ source/                # Editable desktop-theme JSON
+│  └─ share/                 # Import-ready share strings
+├─ themes/                   # Codex CLI/TUI syntax themes
+├─ scripts/                  # Build, install, and uninstall scripts
+└─ preview/                  # Bilingual portrait-theme website
 ```
 
-## 设计原则
+## Design Principles
 
-- 主背景保持低亮度，减少长时间阅读的视觉疲劳。
-- 关键字、函数、字符串和数字拥有清晰但不过饱和的色彩层级。
-- 不使用图片背景；Codex 当前分享协议只接受界面颜色、字体、对比度和语义色等配置。
-- 安装和卸载均可回滚，不修改 Codex 程序文件。
+- Keep primary surfaces low in brightness to reduce fatigue during long coding sessions.
+- Give keywords, functions, strings, and numbers clear but restrained visual hierarchy.
+- Keep image backgrounds out of imported editor themes; the current Codex share format controls interface colors, fonts, contrast, and semantic colors rather than background imagery.
+- Keep installation and uninstallation reversible without modifying Codex application files.
 
-## 许可证
+## License
 
-- 本仓库自行编写的源代码、脚本、主题配置和文档采用 [MIT License](LICENSE)。
-- AI 生成的虚构人物图片在项目作者可授权的范围内采用 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。
-- 真人照片不适用 MIT 或统一的图片许可，必须遵守 [`ATTRIBUTION.md`](ATTRIBUTION.md) 中对应文件的 CC BY / CC BY-SA 许可、署名与相同方式共享要求。
-- 照片人物没有认可、合作、参与或赞助本项目。开放版权许可也不自动授予肖像宣传、商业代言或商标权利。
+- Source code, scripts, theme configurations, and documentation authored in this repository are available under the [MIT License](LICENSE).
+- The AI-generated fictional-character images are available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) to the extent that the project author may license them.
+- Celebrity photographs are not covered by MIT or a single repository-wide image license. Each file remains subject to the corresponding CC BY or CC BY-SA license, attribution, and share-alike requirements documented in [`ATTRIBUTION.md`](ATTRIBUTION.md).
+- The photographed people do not endorse, sponsor, participate in, or collaborate with this project. Open copyright licenses do not automatically grant publicity, commercial-endorsement, trademark, privacy, or other personality rights.
